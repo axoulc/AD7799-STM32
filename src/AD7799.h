@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file    AD7799.c
+  * @file    AD7799.h
   * @brief   This file provides functions, enum and struct to use ADC Analog AD7799
   * @author	 Axel Chabot
   ******************************************************************************
