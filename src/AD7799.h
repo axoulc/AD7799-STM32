@@ -10,7 +10,7 @@
 #ifndef __AD7799_H__
 #define __AD7799_H__
 
-#include<stm32l4xx_hal.h>
+#include "main.h"
 
 /*AD7799 Registers*/
 #define AD7799_REG_COMM        0 /* Communications Register(WO, 8-bit) */

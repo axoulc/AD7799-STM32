@@ -61,5 +61,10 @@ int main(void) {
 
 Give a ⭐️ if this project helped you!
 
+## 📝 License
+
+Copyright © 2021 [Axel Chabot](https://github.com/axoulc).<br />
+This project is [MIT](https://github.com/axoulc/AD7799-STM32/blob/main/LICENSE) licensed.
+
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
