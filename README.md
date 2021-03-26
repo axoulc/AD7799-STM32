@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to AD7799-STM32 👋</h1>
 <p>
-  <a href="#" target="_blank">
+  <a href="https://github.com/axoulc/AD7799-STM32/blob/main/LICENSE" target="_blank">
     <img alt="License: MIT License" src="https://img.shields.io/badge/License-MIT License-yellow.svg" />
   </a>
 </p>
