@@ -32,7 +32,7 @@
 AD7799 adc;
 
 int main(void) {
-    adc.adcspi = &hspi3; //Your SPI Handler
+	adc.adcspi = &hspi3; //Your SPI Handler
 	adc.CSPort = ADC_CS_GPIO_Port; // Your CS Port
 	adc.CSPin = ADC_CS_Pin; // Your CS Pin
 	adc.vref = 3.0; // Your Voltage reference
