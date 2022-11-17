@@ -204,7 +204,7 @@ HAL_StatusTypeDef AD7799_SingleConversion(AD7799 *ad7799) {
 	uint32_t startTime = HAL_GetTick();
 	while (!AD7799_Ready(ad7799)) {
 		if (HAL_GetTick() - startTime
-				> (uint32_t) 1.5 * settle_time_ms[(uint8_t) ad7799->rate]) {
+				> (uint32_t) (1.5 * settle_time_ms[(uint8_t) ad7799->rate])) {
 			return HAL_TIMEOUT;
 		}
 	}
